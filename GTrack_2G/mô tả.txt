@@ -1,0 +1,8 @@
+fix thành công:  lỗi mcu treo, và lỗi mc60 treo khi mất sóng
+thêm đồng hồ watchdog reset khi sau 26s mcu treo ( back up features)
+
+mục tiêu:
+-lưu trữ dữ liệu gps vào flash để khi có tín hiệu mạng ổn định ( chắc chắn pub thành công )
+mới bắt đầu pub lên server
+- nạp pin để test năng lượng tiêu thụ
+- tắt được IWWDG trước khi vào stopmode ( để IWWDG không wake up stop mode) và bật lại IWWDG sau khi exit khỏi STOP MODE
